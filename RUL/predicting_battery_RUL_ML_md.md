@@ -420,7 +420,44 @@ open_system(system_model_name);
 sim(system_model_name);
 ```
 
-#  コード生成
+## 【参考】専用ブロックを用いた実装
+
+
+Simulink ライブラリブラウザーの Statistics and Machine Learning Toolbox™ には、特定の機械学習モデルに対応した専用ブロックが存在している。
+
+
+
+
+今回は例として、SVMの機械学習モデルを専用ブロックで実装する。「trainedModel_SVM.mat」に、SVMで別途学習させたモデルが格納されている。以下のコマンドを実行してワークスペースにモデルを読み込む。
+
+
+
+```matlab:Code
+load('trainedModel_SVM.mat');
+```
+
+
+
+「predict_RUL_with_ML.slx」を開き、Manual Variant Source ブロックをダブルクリックし、以下の画像のように「RegressionSVM Predict」の方を有効化する。
+
+
+
+
+![image_7.png](predicting_battery_RUL_ML_md_images/image_7.png)
+
+
+
+
+専用ブロックを使う場合は、「saveLearnerForCoder」コマンドは必要ない。ブロックパラメータで機械学習オブジェクト名を指定するだけでよい。（「RegressionSVM Predict」のブロックパラメーターを確認すること。）
+
+
+
+
+この状態でモデルを実行し、結果を確認すること。
+
+
+  
+# コード生成
 
 
 機械学習モデルは Embedded Coder® でコード生成することができる。以下のコマンドを実行し、生成されるコードを確認すること。
