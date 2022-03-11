@@ -70,12 +70,30 @@
 # 応用編
 
 
-以下のリンク先のデモモデルでは、バッテリーマネジメントシステム(BMS)のモデルベースデザインを行う方法を示している。Simulink Test を使ったテストケースの活用、Simulink Requirements™ を使った要件の関連付けなどの応用的な手法も紹介されている。
+以下のリンク先のデモモデルでは、バッテリーマネジメントシステム(BMS)のモデルベースデザインを行う方法を示している。Simulink Test を使ったテストケースの活用、Requirements Toolbox™ を使った要件の関連付けなどの応用的な手法も紹介されている。
 
 
 
 
 [Design and Test Lithium Ion Battery Management Algorithms](https://jp.mathworks.com/matlabcentral/fileexchange/72865-design-and-test-lithium-ion-battery-management-algorithms)
+
+
+  
+# 過去バージョン
+
+
+過去のバージョンのファイル一式は、以下から得ることができる。ただし、過去のモデルには、古い時期に作成したサンプルしか含まれていないことに注意すること。
+
+
+
+
+GitHubからクローンしている場合には、以下の該当バージョンに戻すことで、過去バージョンファイルを得ることができる。
+
+
+  
+
+
+R2021b: [v1.2](https://github.com/mathworks/battery-modeling-solutions-with-simscape-and-measured-data/archive/refs/tags/v1.2.zip)
 
 
   
