@@ -49,6 +49,12 @@
 [バッテリーセル96直列のバッテリーパックモデリング](/Battery_Pack/design_battery_pack_md.md)
 
 
+## バッテリーパックとPMSMモーター制御
+
+
+[バッテリーパックとPMSMモーター制御を統合したシミュレーションの高速化](/Battery_and_PMSM/design_battery_pack_and_PMSM_control_md.md)
+
+
 ## セルバランス制御
 
 
