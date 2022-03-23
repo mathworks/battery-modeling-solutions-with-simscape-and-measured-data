@@ -44,6 +44,22 @@ plot_battery_pack_results_in_SDI;
 抵抗負荷に電流が流れ、SOCが低下していく様子が確認できる。また、セルの温度も上昇していることが分かる。
 
 
+# 【参考情報】コンパイルの最適化
+
+
+今回のモデルのように、同じモデリングパターンを繰り返し用いる大規模モデルでは、コンフィギュレーションパラメーターで以下のように設定を行うことで、コンパイル時間を削減することができる。
+
+
+
+
+![image_0.png](design_battery_pack_md_images/image_0.png)
+
+
+
+
+この設定の詳細については、「[スケーラブルなコンパイルに向けたモデルの準備](https://jp.mathworks.com/help/physmod/simscape/ug/preparing-your-model-for-scalable-compilation.html)」を参照。
+
+
   
 
 
