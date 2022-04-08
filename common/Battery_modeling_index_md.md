@@ -74,14 +74,27 @@
 
   
 # 応用編
+## バッテリーマネジメントシステム
 
 
-以下のリンク先のデモモデルでは、バッテリーマネジメントシステム(BMS)のモデルベースデザインを行う方法を示している。Simulink Test を使ったテストケースの活用、Requirements Toolbox™ を使った要件の関連付けなどの応用的な手法も紹介されている。
+以下のデモモデルでは、バッテリーマネジメントシステム(BMS)のモデルベースデザインを行う方法を示している。Simulink Test を使ったテストケースの活用、Requirements Toolbox™ を使った要件の関連付けなどの応用的な手法も紹介されている。
 
 
 
 
 [Design and Test Lithium Ion Battery Management Algorithms](https://jp.mathworks.com/matlabcentral/fileexchange/72865-design-and-test-lithium-ion-battery-management-algorithms)
+
+
+  
+## バッテリーパック ROM (Reduced Order Model)
+
+
+バッテリーパックの電気と熱の振る舞いを3次元的に表現したい場合は、以下のデモモデルを参考にすること。3D CAEツールでバッテリーパックを作成し、その後ROMを作成し、Simscape Electrical と連携して実行する例を紹介している。
+
+
+
+
+[Battery pack Simulink model with Q-Bat and Simscape](https://jp.mathworks.com/matlabcentral/fileexchange/103870-battery-pack-simulink-model-with-q-bat-and-simscape)
 
 
   
