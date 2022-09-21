@@ -112,6 +112,11 @@ GitHubからクローンしている場合には、以下の該当バージョ�
   
 
 
+R2022a: [v2.1.2](https://github.com/mathworks/battery-modeling-solutions-with-simscape-and-measured-data/archive/refs/tags/v2.1.2.zip)
+
+
+
+
 R2021b: [v1.2](https://github.com/mathworks/battery-modeling-solutions-with-simscape-and-measured-data/archive/refs/tags/v1.2.zip)
 
 
